@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média Aluno</title>
+    <script src="index.js"></script>
+</head>
+<body >
+    <font face="Times New Roman">
+<center>
+  <form act> 
+        <table border=1 >
+    <tr>
+<td colspan=2 bgcolor='PaleGreen'> <center><h3><pre></pre><h1>Notas do Aluno</h1>   </h3></center></td>
+</tr>
+     <p><tr><td><pre> <font size="5px"color="#0B610B">Nome Do Aluno: </font><td><input type="text" name="nome" size="30" ></td></pre></td></tr><p>
+      <p><tr><td><pre><center><font size="5px"color="#0B610B">Matrícula: </font></center><td><input type="text" name="matricula" size="30"></td></pre></td></tr><p>
+      <p><tr><td><pre><center><font size="5px"color="#0B610B">1° Nota: </font></center><td><input type="text" name="n1" size="10"></td></pre></td></tr><p>
+      <p><tr><td><pre><center><font size="5px"color="#0B610B">2° Nota: </font></center><td><input type="text" name="n2" size="10"></td></pre></td></tr><p>
+      <p><tr><td> <pre><center><font size="5px"color="#0B610B">3° Nota: </font></center><td><input type="text" name="n3" size="10"></td></pre> </td></tr><p> 
+     
+
+ 
+        <p> <td><button onclick="aluno.salvar()">Salvar</button></p>
+        <p> <td><button onclick="aluno.limpar()">Limpar</button></p>
+         
+
+           </table>
+        </form>
+     
+     </center>
+    </font>
+    <br>
+    <center>
+        <div class="content">
+            <table border="1">
+                <thead>
+                    <th>Aluno</th>
+                    <th>Matrícula</th>
+                    <th>Nota 1</th>
+                    <th>Nota 2</th>
+                    <th>Nota 3</th>
+                    <th>Média</th>
+                    <th>Opções</th>
+                </thead>
+                <tbody id="tbody">
+                   
+                </tbody>
+            </table>
+        </div>
+    </center>
+    
+             
+                       
+</body>
+</html>
